@@ -65,6 +65,8 @@ To build a scalable, interpretable, and deployable churn prediction model traine
 
 ## 📁 Project Structure
 
+---
+
 ANNClassification-Churn-Analysis/
 ├── data/                 # Source data: Churn_Modelling.csv
 ├── notebooks/            # EDA & experimentation: churn_analysis.ipynb
