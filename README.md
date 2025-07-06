@@ -77,7 +77,6 @@ ANNClassification-Churn-Analysis/
 ├── outputs/              # Plotted outputs: confusion_matrix.png, roc_curve.png
 ├── app.py                # Streamlit application for inference
 ├── requirements.txt      # Python dependencies
-├── LICENSE               # MIT License
 └── README.md             # Project overview (this file)
 
 ```
