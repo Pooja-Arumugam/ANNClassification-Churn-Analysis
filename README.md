@@ -65,7 +65,7 @@ To build a scalable, interpretable, and deployable churn prediction model traine
 
 ## 📁 Project Structure
 
----text
+```text
 
 ANNClassification-Churn-Analysis/
 ├── data/                 # Source data: Churn_Modelling.csv
@@ -80,7 +80,7 @@ ANNClassification-Churn-Analysis/
 ├── LICENSE               # MIT License
 └── README.md             # Project overview (this file)
 
----
+```
 
 ## 🔧 Setup Instructions  
 *(Recommended: macOS/Linux/WSL; adapt powershell for native Windows)*
