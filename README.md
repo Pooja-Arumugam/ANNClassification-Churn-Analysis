@@ -1,7 +1,5 @@
 # ANNClassification-Churn-Analysis
 
-link: https://annclassification-churn-analysis-dxcfeztrabehh7avsxhkyp.streamlit.app/
-
 # 🧠 Customer Churn Prediction Using Artificial Neural Networks (ANN) + Web Deployment
 
 This project is a **complete machine learning pipeline** built to predict customer churn using Artificial Neural Networks. It includes everything from raw data ingestion and exploratory analysis to model training, evaluation, and **deployment using Streamlit**. The goal is to simulate a real-world machine learning solution for a SaaS/telecom/banking business use case.
