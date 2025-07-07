@@ -150,8 +150,7 @@ Check the /outputs/ folder for confusion matrix and ROC visuals.
 - Deploy to Streamlit Cloud or Hugging Face Spaces
 
 
-
-###✨ Acknowledgments
+### Acknowledgments
 - Kaggle Telco/Banking datasets
 - TensorFlow & Streamlit open-source communities
 - ML tutorials and practice programs
