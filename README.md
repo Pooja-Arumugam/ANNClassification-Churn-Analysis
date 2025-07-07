@@ -1,12 +1,12 @@
 # ANNClassification-Churn-Analysis
 
-# 🧠 Customer Churn Prediction Using Artificial Neural Networks (ANN) + Web Deployment
+# Customer Churn Prediction Using Artificial Neural Networks (ANN) + Web Deployment
 
 This project is a **complete machine learning pipeline** built to predict customer churn using Artificial Neural Networks. It includes everything from raw data ingestion and exploratory analysis to model training, evaluation, and **deployment using Streamlit**. The goal is to simulate a real-world machine learning solution for a SaaS/telecom/banking business use case.
 
 ---
 
-## 🧾 Executive Summary
+## Executive Summary
 
 **Business Context:**  
 Customer churn represents a significant revenue leak for subscription-based businesses. Predicting churn enables targeted interventions to improve retention.
@@ -21,7 +21,7 @@ To build a scalable, interpretable, and deployable churn prediction model traine
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source:** Simulated telco/banking customer dataset
 - **File:** `Churn_Modelling.csv`
@@ -46,7 +46,7 @@ To build a scalable, interpretable, and deployable churn prediction model traine
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer               | Tools/Libraries                        |
 |---------------------|----------------------------------------|
@@ -61,7 +61,7 @@ To build a scalable, interpretable, and deployable churn prediction model traine
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 
@@ -79,7 +79,7 @@ ANNClassification-Churn-Analysis/
 
 ```
 
-## 🔧 Setup Instructions  
+##  Setup Instructions  
 *(Recommended: macOS/Linux/WSL; adapt powershell for native Windows)*
 
 ### 1. Clone repository  
@@ -95,7 +95,7 @@ source venv/bin/activate
 ### 3. Install dependencies
 
 pip install -r requirements.txt
-🚀 How To Run
+###### How To Run
 A. Explore EDA & Model Training
 - jupyter notebook notebooks/churn_analysis.ipynb
 B. Train the ANN model
@@ -105,7 +105,7 @@ C. Launch the Streamlit app
 - streamlit run app.py
 - Open link on your browser
 
-## 🧠 ANN Model Architecture
+## ANN Model Architecture
 - Layer	Units	Activation
 - Input	11	—
   - Hidden Layer 1	6	ReLU
@@ -115,7 +115,7 @@ C. Launch the Streamlit app
 - Optimizer: Adam
 - Epochs / Batch: 100 / 32
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 Metric	Score
 Accuracy	~87%
 Precision	~79%
@@ -125,12 +125,12 @@ ROC-AUC	~0.88
 
 Check the /outputs/ folder for confusion matrix and ROC visuals.
 
-##💡 Key Insights
+## Key Insights
 - Top predictors: Geography, Age, Active status
 - Users with low engagement and fewer products show higher churn risk
 - Salary alone is not a strong differentiator
 
-## 🌟 Project Highlights
+## Project Highlights
 ✅ End-to-end pipeline from EDA to live deployment
 
 ✅ Modular, reusable Python scripts
@@ -141,7 +141,7 @@ Check the /outputs/ folder for confusion matrix and ROC visuals.
 
 ✅ Environment reproducibility via virtualenv & requirements.txt
 
-## 📌 Future Enhancements
+## Future Enhancements
 - Hyperparameter tuning (Optuna/GridSearch)
 - Handle class imbalance (SMOTE, class weights)
 - Explainability (SHAP/LIME)
