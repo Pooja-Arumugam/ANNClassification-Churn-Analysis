@@ -147,7 +147,7 @@ Check the /outputs/ folder for confusion matrix and ROC visuals.
 - Explainability (SHAP/LIME)
 - Containerize using Docker
 - Add CSV batch inference in Streamlit
-- Deploy to Streamlit Cloud or Hugging Face Spaces
+- Deploy to Cloud or Hugging Face Spaces
 
 
 ### Acknowledgments
